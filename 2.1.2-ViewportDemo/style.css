@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.viewport{
+    background-color: crimson;
+    width: 100vw;
+    height: 33.333333333vh;
+}
+
+.viewport:nth-child(2){
+    background-color: yellowgreen;
+}
+
+.viewport:nth-child(3){
+    background-color: skyblue;
+}
