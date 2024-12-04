@@ -82,7 +82,59 @@ header ul li:hover{
     transform: scale(1.2);
 }
 
-/* Estilos tarjetas */
+/* Estilos tarjetas generos */
+
+.genders-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    gap: 3rem;
+}
+
+.gender-card{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    border-radius: 10px;
+    transition: 200ms;
+}
+
+.gender-card:hover{
+    background-color: rgb(26, 26, 26);
+    transform: translateY(-10px);
+    -webkit-box-shadow: 28px 25px 0px -6px rgba(220,18,58,1);
+    -moz-box-shadow: 28px 25px 0px -6px rgba(220,18,58,1);
+    box-shadow: 28px 25px 0px -6px rgba(220,18,58,1);
+}
+
+.info-gender-card{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+}
+
+.image-gender-container{
+    width: 35%;
+}
+
+.image-gender-container img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.icon-gender-container{
+    width: 4.5rem;
+}
+
+.icon-gender-container img{
+    width: 100%;
+    filter: invert(100);
+}
+
+/* Estilos tarjetas artistas */
 
 .cards-container{
     padding: 2rem;
